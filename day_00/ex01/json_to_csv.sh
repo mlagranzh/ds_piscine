@@ -1,3 +1,2 @@
 # /bin/sh
-
-jq -f -s filter.jq ../ex00/hh.json > hh.csv
+jq -rf filter.jq  ../ex00/hh.json > hh.csv

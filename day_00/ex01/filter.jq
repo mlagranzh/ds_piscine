@@ -1,13 +1,1 @@
-def tocsv:
-    (map(keys)
-        |add
-        |sort
-    ) as $cols
-    |map(. as $row
-        |$cols
-        |map($row[.]|tostring)
-    ) as $rows
-    |$cols,$rows[]
-    | @csv;
-
-tocsv
+["id", "created_at", "name", "has_test", "alternate_url"], (.items[] | [.id, .created_at, .name, .has_test, .alternate_url]) | @csv
