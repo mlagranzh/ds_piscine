@@ -1,4 +1,5 @@
 import sys
+from random import randint
 
 class Research:
     
@@ -26,35 +27,31 @@ class Research:
 
 
     class Calculations:
-        def counts(self, list_of_element):
-            count_heads = sum([x for x,y in [element for element in list_of_element]])
-            count_tails = sum([y for x,y in [element for element in list_of_element]])
+        def __init__(self, list_of_element):
+            self.list_of_element = list_of_element
+
+        def counts(self):
+            count_heads = sum([x for x,y in [element for element in self.list_of_element]])
+            count_tails = sum([y for x,y in [element for element in self.list_of_element]])
             return count_heads, count_tails
         def fractions(self, count_heads, count_tails):
             heads_percents = float(count_heads)/(count_heads + count_tails)
             tails_percents = float(count_tails)/(count_heads + count_tails)
-            return heads_percents * 100, tails_percents * 100
+            return heads_percents, tails_percents
 
-def research():
-    if (len(sys.argv) != 2):
-        exit(1)
-    try:
-        file = open(sys.argv[1])
-    except BaseException:
-        print("File not found")
-        exit(1)
-    class_object = Research(sys.argv[1])
-    try:
-        class_object.parsing()
-    except Exception:
-        print("Parsing Error")
-        exit(1)
-    output = class_object.file_reader()
-    count_heads, count_tails = class_object.Calculations().counts(output)
-    heads_percents, tails_percents = class_object.Calculations().fractions(count_heads, count_tails)
-    print(output)
-    print(count_heads, count_tails)
-    print(heads_percents, tails_percents)
+    class Analytics(Calculations):
+        def predict_random(self, count_predict):
+            output = []
+            for i in range(count_predict):
+                heads = randint(0, 1)
+                tails = 0 if (heads == 1) else 1
+                output.append([heads, tails])
+            return output
 
-if __name__ == '__main__':
-    research()
+        def predict_last(self):
+            return self.list_of_element[-1]
+        #where self????
+        def save_file(data, name_of_file, type_of_file):
+            file_write = open(name_of_file + '.' + type_of_file, 'w')
+            file_write.write(data)
+            

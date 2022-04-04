@@ -1,4 +1,3 @@
-from shutil import ExecError
 import sys
 
 class Research:
@@ -26,7 +25,7 @@ def research():
         exit(1)
     try:
         file = open(sys.argv[1])
-    except FileNotFoundError:
+    except BaseException:
         print("File not found")
         exit(1)
     class_object = Research(sys.argv[1])
