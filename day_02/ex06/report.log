@@ -12,3 +12,263 @@
 2022-04-04 23:12:10,814 Analytics.predict_random()
 2022-04-04 23:12:10,815 Calculating.counts()
 2022-04-04 23:12:10,815 Analytics.save_file()
+2022-04-05 02:38:26,326 Research.parsing()
+2022-04-05 02:38:26,326 Research.file_reader()
+2022-04-05 02:38:26,326 Calculating.counts()
+2022-04-05 02:38:26,326 Calculating.fractions()
+2022-04-05 02:38:26,326 Analytics.predict_random()
+2022-04-05 02:38:26,327 Calculating.counts()
+2022-04-05 02:38:26,327 Analytics.save_file()
+2022-04-05 02:38:26,468 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:38:26,872 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:38:42,319 Research.parsing()
+2022-04-05 02:38:42,320 Research.file_reader()
+2022-04-05 02:38:42,320 Calculating.counts()
+2022-04-05 02:38:42,320 Calculating.fractions()
+2022-04-05 02:38:42,320 Analytics.predict_random()
+2022-04-05 02:38:42,320 Calculating.counts()
+2022-04-05 02:38:42,320 Analytics.save_file()
+2022-04-05 02:38:42,329 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:38:42,761 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:43:51,826 Research.parsing()
+2022-04-05 02:43:51,826 Research.file_reader()
+2022-04-05 02:43:51,826 Calculating.counts()
+2022-04-05 02:43:51,826 Calculating.fractions()
+2022-04-05 02:43:51,826 Analytics.predict_random()
+2022-04-05 02:43:51,826 Calculating.counts()
+2022-04-05 02:43:51,826 Analytics.save_file()
+2022-04-05 02:43:51,945 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:43:52,424 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:44:14,089 Research.parsing()
+2022-04-05 02:44:14,089 Research.file_reader()
+2022-04-05 02:44:14,089 Calculating.counts()
+2022-04-05 02:44:14,089 Calculating.fractions()
+2022-04-05 02:44:14,089 Analytics.predict_random()
+2022-04-05 02:44:14,089 Calculating.counts()
+2022-04-05 02:44:14,089 Analytics.save_file()
+2022-04-05 02:44:14,094 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:44:14,504 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:44:20,993 Research.parsing()
+2022-04-05 02:44:20,993 Research.file_reader()
+2022-04-05 02:44:20,993 Calculating.counts()
+2022-04-05 02:44:20,993 Calculating.fractions()
+2022-04-05 02:44:20,993 Analytics.predict_random()
+2022-04-05 02:44:20,993 Calculating.counts()
+2022-04-05 02:44:20,993 Analytics.save_file()
+2022-04-05 02:44:20,998 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:44:21,459 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:44:22,523 Research.parsing()
+2022-04-05 02:44:22,523 Research.file_reader()
+2022-04-05 02:44:22,523 Calculating.counts()
+2022-04-05 02:44:22,523 Calculating.fractions()
+2022-04-05 02:44:22,523 Analytics.predict_random()
+2022-04-05 02:44:22,523 Calculating.counts()
+2022-04-05 02:44:22,523 Analytics.save_file()
+2022-04-05 02:44:22,528 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:44:22,940 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:45:26,999 Research.parsing()
+2022-04-05 02:45:26,999 Research.file_reader()
+2022-04-05 02:45:26,999 Calculating.counts()
+2022-04-05 02:45:26,999 Calculating.fractions()
+2022-04-05 02:45:26,999 Analytics.predict_random()
+2022-04-05 02:45:26,999 Calculating.counts()
+2022-04-05 02:45:26,999 Analytics.save_file()
+2022-04-05 02:45:27,219 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:45:27,714 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:47:03,493 Research.parsing()
+2022-04-05 02:47:03,493 Research.file_reader()
+2022-04-05 02:47:03,493 Calculating.counts()
+2022-04-05 02:47:03,493 Calculating.fractions()
+2022-04-05 02:47:03,493 Analytics.predict_random()
+2022-04-05 02:47:03,493 Calculating.counts()
+2022-04-05 02:47:03,493 Analytics.save_file()
+2022-04-05 02:47:03,615 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:47:04,015 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:48:08,745 Research.parsing()
+2022-04-05 02:48:08,745 Research.file_reader()
+2022-04-05 02:48:08,745 Calculating.counts()
+2022-04-05 02:48:08,745 Calculating.fractions()
+2022-04-05 02:48:08,745 Analytics.predict_random()
+2022-04-05 02:48:08,745 Calculating.counts()
+2022-04-05 02:48:08,745 Analytics.save_file()
+2022-04-05 02:48:08,751 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:48:09,178 https://hooks.slack.com:443 "GET /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:48:09,186 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:48:09,653 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:48:10,929 Research.parsing()
+2022-04-05 02:48:10,929 Research.file_reader()
+2022-04-05 02:48:10,929 Calculating.counts()
+2022-04-05 02:48:10,929 Calculating.fractions()
+2022-04-05 02:48:10,929 Analytics.predict_random()
+2022-04-05 02:48:10,929 Calculating.counts()
+2022-04-05 02:48:10,929 Analytics.save_file()
+2022-04-05 02:48:10,934 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:48:11,378 https://hooks.slack.com:443 "GET /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:48:11,383 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:48:11,813 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:49:58,433 Research.parsing()
+2022-04-05 02:49:58,434 Research.file_reader()
+2022-04-05 02:49:58,434 Calculating.counts()
+2022-04-05 02:49:58,434 Calculating.fractions()
+2022-04-05 02:49:58,434 Analytics.predict_random()
+2022-04-05 02:49:58,434 Calculating.counts()
+2022-04-05 02:49:58,434 Analytics.save_file()
+2022-04-05 02:49:58,531 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:49:58,988 https://hooks.slack.com:443 "GET /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:49:58,995 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:49:59,415 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:50:00,136 Research.parsing()
+2022-04-05 02:50:00,136 Research.file_reader()
+2022-04-05 02:50:00,136 Calculating.counts()
+2022-04-05 02:50:00,136 Calculating.fractions()
+2022-04-05 02:50:00,136 Analytics.predict_random()
+2022-04-05 02:50:00,136 Calculating.counts()
+2022-04-05 02:50:00,136 Analytics.save_file()
+2022-04-05 02:50:00,141 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:50:00,619 https://hooks.slack.com:443 "GET /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:50:00,627 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:50:01,055 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:50:20,487 Research.parsing()
+2022-04-05 02:50:20,488 Research.file_reader()
+2022-04-05 02:50:20,488 Calculating.counts()
+2022-04-05 02:50:20,488 Calculating.fractions()
+2022-04-05 02:50:20,488 Analytics.predict_random()
+2022-04-05 02:50:20,488 Calculating.counts()
+2022-04-05 02:50:20,488 Analytics.save_file()
+2022-04-05 02:50:20,493 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:50:20,856 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:50:22,329 Research.parsing()
+2022-04-05 02:50:22,329 Research.file_reader()
+2022-04-05 02:50:22,329 Calculating.counts()
+2022-04-05 02:50:22,329 Calculating.fractions()
+2022-04-05 02:50:22,329 Analytics.predict_random()
+2022-04-05 02:50:22,329 Calculating.counts()
+2022-04-05 02:50:22,329 Analytics.save_file()
+2022-04-05 02:50:22,333 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:50:22,690 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:51:12,563 Research.parsing()
+2022-04-05 02:51:12,563 Research.file_reader()
+2022-04-05 02:51:12,563 Calculating.counts()
+2022-04-05 02:51:12,563 Calculating.fractions()
+2022-04-05 02:51:12,563 Analytics.predict_random()
+2022-04-05 02:51:12,563 Calculating.counts()
+2022-04-05 02:51:12,563 Analytics.save_file()
+2022-04-05 02:51:12,577 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:51:12,973 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:51:16,990 Research.parsing()
+2022-04-05 02:51:16,990 Research.file_reader()
+2022-04-05 02:51:16,990 Calculating.counts()
+2022-04-05 02:51:16,990 Calculating.fractions()
+2022-04-05 02:51:16,990 Analytics.predict_random()
+2022-04-05 02:51:16,990 Calculating.counts()
+2022-04-05 02:51:16,990 Analytics.save_file()
+2022-04-05 02:51:16,995 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:51:17,369 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:52:40,728 Research.parsing()
+2022-04-05 02:52:40,728 Research.file_reader()
+2022-04-05 02:52:40,729 Calculating.counts()
+2022-04-05 02:52:40,729 Calculating.fractions()
+2022-04-05 02:52:40,729 Analytics.predict_random()
+2022-04-05 02:52:40,729 Calculating.counts()
+2022-04-05 02:52:40,729 Analytics.save_file()
+2022-04-05 02:52:40,847 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:52:41,250 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:52:44,106 Research.parsing()
+2022-04-05 02:52:44,106 Research.file_reader()
+2022-04-05 02:52:44,106 Calculating.counts()
+2022-04-05 02:52:44,106 Calculating.fractions()
+2022-04-05 02:52:44,106 Analytics.predict_random()
+2022-04-05 02:52:44,106 Calculating.counts()
+2022-04-05 02:52:44,106 Analytics.save_file()
+2022-04-05 02:52:44,111 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:52:44,568 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:52:57,677 Research.parsing()
+2022-04-05 02:52:57,677 Research.file_reader()
+2022-04-05 02:52:57,677 Calculating.counts()
+2022-04-05 02:52:57,677 Calculating.fractions()
+2022-04-05 02:52:57,678 Analytics.predict_random()
+2022-04-05 02:52:57,678 Calculating.counts()
+2022-04-05 02:52:57,678 Analytics.save_file()
+2022-04-05 02:52:57,682 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:52:58,092 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJIf5ERW HTTP/1.1" 403 None
+2022-04-05 02:52:59,239 Research.parsing()
+2022-04-05 02:52:59,240 Research.file_reader()
+2022-04-05 02:52:59,240 Calculating.counts()
+2022-04-05 02:52:59,240 Calculating.fractions()
+2022-04-05 02:52:59,240 Analytics.predict_random()
+2022-04-05 02:52:59,240 Calculating.counts()
+2022-04-05 02:52:59,240 Analytics.save_file()
+2022-04-05 02:52:59,244 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:52:59,646 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJIf5ERW HTTP/1.1" 403 None
+2022-04-05 02:53:01,521 Research.parsing()
+2022-04-05 02:53:01,521 Research.file_reader()
+2022-04-05 02:53:01,521 Calculating.counts()
+2022-04-05 02:53:01,521 Calculating.fractions()
+2022-04-05 02:53:01,521 Analytics.predict_random()
+2022-04-05 02:53:01,521 Calculating.counts()
+2022-04-05 02:53:01,521 Analytics.save_file()
+2022-04-05 02:53:01,526 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:53:01,972 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 02:57:39,628 Research.parsing()
+2022-04-05 02:57:39,628 Research.file_reader()
+2022-04-05 02:57:39,628 Calculating.counts()
+2022-04-05 02:57:39,628 Calculating.fractions()
+2022-04-05 02:57:39,628 Analytics.predict_random()
+2022-04-05 02:57:39,628 Calculating.counts()
+2022-04-05 02:57:39,628 Analytics.save_file()
+2022-04-05 02:57:39,634 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 02:57:40,042 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 03:01:52,000 Research.parsing()
+2022-04-05 03:01:52,001 Research.file_reader()
+2022-04-05 03:01:52,001 Calculating.counts()
+2022-04-05 03:01:52,001 Calculating.fractions()
+2022-04-05 03:01:52,001 Analytics.predict_random()
+2022-04-05 03:01:52,001 Calculating.counts()
+2022-04-05 03:01:52,001 Analytics.save_file()
+2022-04-05 03:01:52,013 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 03:01:52,276 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 03:02:05,555 Research.parsing()
+2022-04-05 03:02:05,555 Research.file_reader()
+2022-04-05 03:02:05,555 Calculating.counts()
+2022-04-05 03:02:05,555 Calculating.fractions()
+2022-04-05 03:02:05,555 Analytics.predict_random()
+2022-04-05 03:02:05,555 Calculating.counts()
+2022-04-05 03:02:05,555 Analytics.save_file()
+2022-04-05 03:02:05,560 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 03:02:05,803 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 03:02:07,520 Research.parsing()
+2022-04-05 03:02:07,520 Research.file_reader()
+2022-04-05 03:02:07,520 Calculating.counts()
+2022-04-05 03:02:07,520 Calculating.fractions()
+2022-04-05 03:02:07,521 Analytics.predict_random()
+2022-04-05 03:02:07,521 Calculating.counts()
+2022-04-05 03:02:07,521 Analytics.save_file()
+2022-04-05 03:02:07,525 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 03:02:07,765 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 03:03:18,798 Research.parsing()
+2022-04-05 03:03:18,799 Research.file_reader()
+2022-04-05 03:03:18,799 Calculating.counts()
+2022-04-05 03:03:18,799 Calculating.fractions()
+2022-04-05 03:03:18,799 Analytics.predict_random()
+2022-04-05 03:03:18,799 Calculating.counts()
+2022-04-05 03:03:18,799 Analytics.save_file()
+2022-04-05 03:03:18,850 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 03:03:19,103 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 03:03:45,577 Research.parsing()
+2022-04-05 03:03:45,578 Research.file_reader()
+2022-04-05 03:03:45,578 Calculating.counts()
+2022-04-05 03:03:45,578 Calculating.fractions()
+2022-04-05 03:03:45,578 Analytics.predict_random()
+2022-04-05 03:03:45,578 Calculating.counts()
+2022-04-05 03:03:45,578 Analytics.save_file()
+2022-04-05 03:03:45,583 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 03:03:45,846 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None
+2022-04-05 03:03:48,072 Research.parsing()
+2022-04-05 03:03:48,072 Research.file_reader()
+2022-04-05 03:03:48,072 Calculating.counts()
+2022-04-05 03:03:48,072 Calculating.fractions()
+2022-04-05 03:03:48,072 Analytics.predict_random()
+2022-04-05 03:03:48,072 Calculating.counts()
+2022-04-05 03:03:48,072 Analytics.save_file()
+2022-04-05 03:03:48,077 Starting new HTTPS connection (1): hooks.slack.com:443
+2022-04-05 03:03:48,331 https://hooks.slack.com:443 "POST /services/T01AR4TAMN0/B03AF0BE081/MoqhCa4lm0ThAXCxXXJI5ERW HTTP/1.1" 400 None

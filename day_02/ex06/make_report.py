@@ -2,6 +2,7 @@ from config import *
 from analytics import Research
 import json
 import logging
+import requests
 
 def main():
     logging.basicConfig(filename='report.log', format='%(asctime)s %(message)s', level=logging.DEBUG)
@@ -10,7 +11,7 @@ def main():
         class_object.parsing()
     except Exception:
         print("Parsing Error")
-        # requests.post(hook, json.dumps(error))
+        requests.post(hook, json.dumps(error))
         exit(1)
     output = class_object.file_reader()
     calculation_class = class_object.Calculations(output)
@@ -30,7 +31,8 @@ def main():
 	)
     print(report_output)
     class_object.Analytics.save_file(report_output, report_filename, type_of_file)
-    # requests.post(hook, json.dumps(success))
+    resp = requests.post(hook, data=json.dumps(report_output))
+    print(resp)
 
 if __name__ == '__main__':
     main()
