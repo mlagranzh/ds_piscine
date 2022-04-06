@@ -6,26 +6,26 @@ def with_a_filter():
     emails = ['john@gmail.com', 'james@gmail.com', 'alice@yahoo.com', 'anna@live.com', 'philipp@gmail.com', 'john@gmail.com', 'james@gmail.com', 'alice@yahoo.com', 'anna@live.com', 'philipp@gmail.com', 'john@gmail.com', 'james@gmail.com', 'alice@yahoo.com', 'anna@live.com', 'philipp@gmail.com', 'john@gmail.com', 'james@gmail.com', 'alice@yahoo.com', 'anna@live.com', 'philipp@gmail.com', 'john@gmail.com', 'james@gmail.com', 'alice@yahoo.com', 'anna@live.com', 'philipp@gmail.com']
     new_emails = list(filter(lambda x: x.split('@')[-1] == 'gmail.com', emails))
 
-def fourth_time():
+def fourth_timetime():
     SETUP_CODE = 'from benchmark import with_a_filter'
  
     TEST_CODE = 'with_a_filter()'
      
     times = timeit.repeat(setup = SETUP_CODE,
                           stmt = TEST_CODE,
-                          number = 10**6)
+                          number = time)
  
     return sum(times)     
 
 
-def third_time():
+def third_time(time):
     SETUP_CODE = 'from benchmark import with_a_map'
  
     TEST_CODE = 'with_a_map()'
      
     times = timeit.repeat(setup = SETUP_CODE,
                           stmt = TEST_CODE,
-                          number = 10**6)
+                          number = time)
  
     return sum(times)     
 
@@ -46,39 +46,43 @@ def list_comprehension_instead():
     new_emails = [element for element in emails if element.split('@')[-1] == 'gmail.com']
 
 
-def first_time():
+def first_time(time):
     SETUP_CODE = 'from benchmark import with_a_loop_and_an_append'
  
     TEST_CODE = 'with_a_loop_and_an_append()'
      
     times = timeit.repeat(setup = SETUP_CODE,
                           stmt = TEST_CODE,
-                          number = 10**6)
+                          number = time)
  
     return sum(times)     
 
-def second_time():
+def second_time(time):
     SETUP_CODE = 'from benchmark import with_a_loop_and_an_append'
  
     TEST_CODE = 'with_a_loop_and_an_append()'
      
     times = timeit.repeat(setup = SETUP_CODE,
                           stmt = TEST_CODE,
-                          number = 10**6)
+                          number = time)
  
     return sum(times)     
 
 
 def main(argv=sys.argv):
+    time_exec = 0
     if (argv[1] == 'loop'):
-        time = first_time(argv[2])
-    if (argv[1] == 'list comprehension'):
-        time = second_time()
+        time_exec = first_time(int(argv[2]))
+    if (argv[1] == 'list_comprehension'):
+        time_exec = second_time(int(argv[2]))
     if (argv[1] == 'map'):
-        time = third_time()
+        time_exec = third_time(int(argv[2]))
     if (argv[1] == 'filter'):
-        time = fourth_time()
-    print(time)
+        time_exec = fourth_time(int(argv[2]))
+    print(time_exec)
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except BaseException:
+        print("ERROR")
