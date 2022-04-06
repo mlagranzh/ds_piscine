@@ -14,9 +14,9 @@ def test_field_for_ticker():
     assert result[0] == test_field
 
 def test_ticker_error():
-    test_field = 'Total Revenue'
+    test_field = 'Tdotal Revenue'
     test_ticker = 'msft'
-    with pytest.raises(KeyError, match=f"Ticker ERROR'"):
+    with pytest.raises(Exception, match=f"Ticker ERROR'"):
         main(('dsfsdd',test_ticker,test_field))
 
 def test_type():
@@ -52,10 +52,12 @@ def main(argv=sys.argv):
 if __name__ == '__main__':
     try:
         main()
-    except Exception or AssertionError:
+    except Exception:
         print("ERROR with fields or ticker")
     
     try:
         test_field_for_ticker()
     except AssertionError:
         print("ERROR with ticker")
+
+#python3 -m pytest financial_test.py
