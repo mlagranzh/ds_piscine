@@ -3,19 +3,19 @@ import timeit
 import sys
 from functools import reduce
 
-def loop_iterable(number):
+def loop_iterable(num):
     sum_square = 0
-    for i in range(number+1):
+    for i in range(num+1):
         sum_square += i*i
 
-def use_reduce(number):
-    sum_square = reduce(lambda y, x: y + x**2, range(number+1))
+def use_reduce(num):
+    sum_square = reduce(lambda y, x: y + x**2, range(num+1))
 
 
-def first_time(time, number):
+def first_time(time, num):
     SETUP_CODE = 'from benchmark import use_reduce'
  
-    TEST_CODE = 'use_reduce({})'.format(number)
+    TEST_CODE = 'use_reduce({})'.format(num)
      
     times = timeit.repeat(setup = SETUP_CODE,
                           stmt = TEST_CODE,
@@ -23,10 +23,10 @@ def first_time(time, number):
  
     return sum(times)     
 
-def second_time(time, number):
+def second_time(time, num):
     SETUP_CODE = 'from benchmark import loop_iterable'
  
-    TEST_CODE = 'loop_iterable({})'.format(number)
+    TEST_CODE = 'loop_iterable({})'.format(num)
      
     times = timeit.repeat(setup = SETUP_CODE,
                           stmt = TEST_CODE,
