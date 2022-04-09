@@ -9,7 +9,7 @@ def main():
     # rat = Ratings('ml-latest-small/ratings.csv')
     # print (rat.Users.user_variance_ratings(rat, 1000))
     tag = Tags('ml-latest-small/tags.csv')
-    print(tag.)
+    print(tag.tags_with('animation'))
 
 if __name__ == '__main__':
     main()

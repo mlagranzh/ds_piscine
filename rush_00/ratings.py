@@ -7,7 +7,7 @@ class Ratings:
     Analyzing data from ratings.csv
     """
     def __init__(self, path_to_the_file):
-        self.file = open(path_to_the_file)
+        self.file = path_to_the_file
 
     class Movies:    
         def dist_by_year(self):
@@ -17,7 +17,7 @@ class Ratings:
             """
             
             years=[]
-            for i, line in enumerate(self.file):
+            for i, line in enumerate(open(self.file)):
                 if (i == 0): continue
                 
                 timestamp = int(line.split(',')[-1])
@@ -35,7 +35,7 @@ class Ratings:
          Sort it by ratings ascendingly.
             """
             rating=[]
-            for i, line in enumerate(self.file):
+            for i, line in enumerate(open(self.file)):
                 if (i == 0): continue
                 
                 rating.append(line.split(',')[-2])
@@ -55,7 +55,7 @@ class Ratings:
 
             movieId=[]
             id_title_film = self.create_dict_id_title_film()
-            for i, line in enumerate(self.file):
+            for i, line in enumerate(open(self.file)):
                 if (i == 0): continue
                 
                 film_name = id_title_film[int(line.split(',')[1])]
@@ -82,7 +82,7 @@ class Ratings:
             """
             movies={}
             id_title_film = self.create_dict_id_title_film()
-            for i, line in enumerate(self.file):
+            for i, line in enumerate(open(self.file)):
                 if (i == 0): continue
                 
                 film_name = id_title_film[int(line.split(',')[1])]
@@ -116,7 +116,7 @@ class Ratings:
             """
             movies={}
             id_title_film = self.create_dict_id_title_film()
-            for i, line in enumerate(self.file):
+            for i, line in enumerate(open(self.file)):
                 if (i == 0): continue
                 
                 film_name = id_title_film[int(line.split(',')[1])]
@@ -186,7 +186,7 @@ class Ratings:
         """
         def user_count_ratings(self):
             userId=[]
-            for i, line in enumerate(self.file):
+            for i, line in enumerate(open(self.file)):
                 if (i == 0): continue
                 
                 userId.append(line.split(',')[0])
@@ -199,7 +199,7 @@ class Ratings:
 
         def user_metric_ratings(self, metric='average'):
             users={}
-            for i, line in enumerate(self.file):
+            for i, line in enumerate(open(self.file)):
                 if (i == 0): continue
                 
                 user_id = int(line.split(',')[0])
@@ -221,7 +221,7 @@ class Ratings:
 
         def user_variance_ratings(self, n):
             top_users={}
-            for i, line in enumerate(self.file):
+            for i, line in enumerate(open(self.file)):
                 if (i == 0): continue
                 
                 user_id = int(line.split(',')[0])

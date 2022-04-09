@@ -6,7 +6,7 @@ class Movies:
     Analyzing data from movies.csv
     """
     def __init__(self, path_to_the_file):
-        self.file = open(path_to_the_file)
+        self.file = path_to_the_file
 
     def dist_by_release(self):
         """
@@ -15,7 +15,7 @@ class Movies:
         """
         years = []
         #preprocessing
-        for i, line in enumerate(self.file):
+        for i, line in enumerate(open(self.file)):
             if (i == 0): continue
             chunks = line.split(',')
             if (len(chunks) > 3):
@@ -40,7 +40,7 @@ class Movies:
      Sort it by counts descendingly.
         """
         genres = []
-        for i, line in enumerate(self.file):
+        for i, line in enumerate(open(self.file)):
             if (i == 0): continue
             for g in line.split(',')[-1].split('|'):
                 genres.append(g.strip())
@@ -55,7 +55,7 @@ class Movies:
         the values are the number of genres of the movie. Sort it by numbers descendingly.
         """
         movies = {}
-        for i, line in enumerate(self.file):
+        for i, line in enumerate(open(self.file)):
             if (i == 0): continue
             chunks = line.split(',')
             if (len(chunks) > 3):
