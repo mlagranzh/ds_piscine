@@ -7,6 +7,12 @@ class Movies:
     """
     def __init__(self, path_to_the_file):
         self.file = path_to_the_file
+    
+    def get_film_by_idx(self, idx):
+        for i, line in enumerate(open(self.file)):
+            if (i == 0): continue
+            if (int(line.split[','][0] == idx)):
+                return line
 
     def dist_by_release(self):
         """

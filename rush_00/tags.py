@@ -50,8 +50,7 @@ class Tags:
                 big_tags[k] = v
                 if len(big_tags) == n:
                     break
-
-
+                
         return list(big_tags.keys())
 
     def most_words_and_longest(self, n):
