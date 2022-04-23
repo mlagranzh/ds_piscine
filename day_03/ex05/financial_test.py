@@ -16,7 +16,7 @@ def test_field_for_ticker():
 def test_ticker_error():
     test_field = 'Tdotal Revenue'
     test_ticker = 'msft'
-    with pytest.raises(Exception, match=f"Ticker ERROR'"):
+    with pytest.raises(Exception):
         main(('dsfsdd',test_ticker,test_field))
 
 def test_type():

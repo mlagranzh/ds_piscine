@@ -1,0 +1,13 @@
+         147636 function calls (143733 primitive calls) in 0.871 seconds
+
+   Random listing order was used
+   List reduced from 637 to 5 due to restriction <5>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method today}
+        2    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method zlib.decompressobj}
+       32    0.003    0.000    0.003    0.000 {method 'decompress' of 'zlib.Decompress' objects}
+
+
